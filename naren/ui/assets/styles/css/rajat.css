@@ -1,0 +1,62 @@
+#preloader_rajat  {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #fff;
+     z-index: 700;
+    height: 100%;
+
+ }
+
+#status_rajat  {
+     width: 300px;
+     height: 300px;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 39%;
+     top: 0;
+     background-image: url(../../images/logo.jpeg);
+     background-repeat: no-repeat;
+     background-position: center;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: auto;
+     margin-bottom: auto;
+     /* margin: -100px 0 0 -100px; */
+ }
+ .logo_static {
+   position:absolute;
+   background: white;
+ }
+
+ .logo_static:hover {
+   opacity:0;
+ }
+
+
+ /* //Slider */
+ <style>
+     /*jssor slider loading skin spin css*/
+     .jssorl-009-spin img {
+         animation-name: jssorl-009-spin;
+         animation-duration: 1.6s;
+         animation-iteration-count: infinite;
+         animation-timing-function: linear;
+     }
+
+     @keyframes jssorl-009-spin {
+         from { transform: rotate(0deg); }
+         to { transform: rotate(360deg); }
+     }
+
+     /*jssor slider bullet skin 031 css*/
+     .jssorb031 {position:absolute;}
+     .jssorb031 .i {position:absolute;cursor:pointer;}
+     .jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
+     .jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
+     .jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
+     .jssorb031 .i.idn {opacity:.3;}
+ </style>
